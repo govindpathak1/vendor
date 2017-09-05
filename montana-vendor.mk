@@ -113,7 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/motorola/montana/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/montana/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/montana/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/montana/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/motorola/montana/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/montana/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -1304,7 +1303,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
-    libril \
     libtime_genoff \
     NfcSetup \
     TimeService \
