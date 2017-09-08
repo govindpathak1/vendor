@@ -1300,7 +1300,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/libnfc-nxp_RF.conf:system/vendor/libnfc-nxp_RF.conf \
     vendor/motorola/montana/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/motorola/montana/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/motorola/montana/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/motorola/montana/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/motorola/montana/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
