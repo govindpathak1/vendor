@@ -356,7 +356,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/motorola/montana/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/motorola/montana/proprietary/lib/hw/displaypanel.default.so:system/lib/hw/displaypanel.default.so \
-    vendor/motorola/montana/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
+    vendor/motorola/montana/proprietary/lib/hw/fingerprint.msm8937.so:system/vendor/lib/hw/fingerprint.vendor.msm8937.so \
     vendor/motorola/montana/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
     vendor/motorola/montana/proprietary/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so \
     vendor/motorola/montana/proprietary/lib/hw/sensors.montana.so:system/lib/hw/sensors.montana.so \
