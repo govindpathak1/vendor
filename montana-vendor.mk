@@ -358,7 +358,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/motorola/montana/proprietary/lib/hw/displaypanel.default.so:system/lib/hw/displaypanel.default.so \
     vendor/motorola/montana/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
-    vendor/motorola/montana/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/motorola/montana/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
     vendor/motorola/montana/proprietary/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so \
     vendor/motorola/montana/proprietary/lib/hw/sensors.montana.so:system/lib/hw/sensors.montana.so \
@@ -415,18 +414,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/montana/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/motorola/montana/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
-    vendor/motorola/montana/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
-    vendor/motorola/montana/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/motorola/montana/proprietary/lib/libjni_pacprocessor.so:system/lib/libjni_pacprocessor.so \
     vendor/motorola/montana/proprietary/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
     vendor/motorola/montana/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/montana/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/montana/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/motorola/montana/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/motorola/montana/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/motorola/montana/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/motorola/montana/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
-    vendor/motorola/montana/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
     vendor/motorola/montana/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/montana/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/montana/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
