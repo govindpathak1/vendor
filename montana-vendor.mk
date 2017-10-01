@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/montana/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/montana/proprietary/bin/garden_app:system/bin/garden_app \
-    vendor/motorola/montana/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/montana/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     vendor/motorola/montana/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/motorola/montana/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
