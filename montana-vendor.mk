@@ -656,7 +656,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/motorola/montana/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/motorola/montana/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/motorola/montana/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
     vendor/motorola/montana/proprietary/vendor/lib/lib_remote_simlock.so:system/vendor/lib/lib_remote_simlock.so \
     vendor/motorola/montana/proprietary/vendor/lib/lib_rsu.so:system/vendor/lib/lib_rsu.so \
@@ -1255,7 +1254,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
     vendor/motorola/montana/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/motorola/montana/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/montana/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/montana/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/motorola/montana/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
@@ -1300,7 +1298,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/motorola/montana/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
     vendor/motorola/montana/proprietary/vendor/qcril.db:system/vendor/qcril.db \
-    vendor/motorola/montana/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so
+    vendor/motorola/montana/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libdrmutils.so:system/vendor/lib/libdrmutils.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
