@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/montana/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/montana/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/montana/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/motorola/montana/proprietary/etc/ap_gain.bin:system/etc/ap_gain.bin \
     vendor/motorola/montana/proprietary/etc/ap_gain_mmul.bin:system/etc/ap_gain_mmul.bin \
     vendor/motorola/montana/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
@@ -339,6 +340,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/montana/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/montana/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/motorola/montana/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/montana/proprietary/etc/permissions/rcs_service_aidl.xml:system/etc/permissions/rcs_service_aidl.xml \
     vendor/motorola/montana/proprietary/etc/permissions/rcs_service_api.xml:system/etc/permissions/rcs_service_api.xml \
     vendor/motorola/montana/proprietary/etc/permissions/rcscommon.xml:system/etc/permissions/rcscommon.xml \
@@ -1349,6 +1351,7 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     qmapbridge \
     qti-telephony-common \
+    com.qti.location.sdk \
     rcs_service_aidl \
     rcs_service_api \
     rcscommon \
