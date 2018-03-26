@@ -29,16 +29,16 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := NfcSetup
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/app/NfcSetup/NfcSetup.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := NfcSetup
+#LOCAL_MODULE_OWNER := motorola
+#LOCAL_SRC_FILES := proprietary/app/NfcSetup/NfcSetup.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_DEX_PREOPT := false
+#LOCAL_MODULE_SUFFIX := .apk
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
@@ -457,55 +457,55 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := rcs_service_aidl
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/framework/rcs_service_aidl.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := rcs_service_aidl
+#LOCAL_MODULE_OWNER := motorola
+#LOCAL_SRC_FILES := proprietary/framework/rcs_service_aidl.jar
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .jar
+#include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := rcs_service_api
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/framework/rcs_service_api.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := rcs_service_api
+#LOCAL_MODULE_OWNER := motorola
+#LOCAL_SRC_FILES := proprietary/framework/rcs_service_api.jar
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .jar
+#include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := rcscommon
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/framework/rcscommon.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := rcscommon
+#LOCAL_MODULE_OWNER := motorola
+#LOCAL_SRC_FILES := proprietary/framework/rcscommon.jar
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .jar
+#include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := rcsimssettings
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/framework/rcsimssettings.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := rcsimssettings
+#LOCAL_MODULE_OWNER := motorola
+#LOCAL_SRC_FILES := proprietary/framework/rcsimssettings.jar
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .jar
+#include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := rcsservice
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/framework/rcsservice.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := rcsservice
+#LOCAL_MODULE_OWNER := motorola
+#LOCAL_SRC_FILES := proprietary/framework/rcsservice.jar
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .jar
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := tcmclient
